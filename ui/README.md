@@ -3,7 +3,8 @@
 Plan for how users talk to the assistant.
 
 ## Approach
-<command line / web page / chat window - what the team chose>
+Command-line interface (CLI). Users run `python -m assistant "<question>"` for one answer, or `python -m assistant` for an interactive prompt (type `quit` to exit). A web or chat UI is a possible later step.
+
 
 ## Main screens or flows
 1. User types a question
