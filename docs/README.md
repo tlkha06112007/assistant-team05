@@ -1,3 +1,5 @@
-# docs/
+# Docs
 
-Project brief, blueprint, ADRs, reports and the team logbook go here.
+| File | Purpose |
+|---|---|
+| team.md | Team members, student IDs and roles |
