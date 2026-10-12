@@ -15,3 +15,7 @@ def test_unknown():
 
 def test_empty():
     assert reply("   ") == "Please type a question."
+
+def test_help():
+    # Kiểm tra xem câu trả lời của lệnh help có chứa từ khóa tính năng (ví dụ: office) hay không
+    assert "office" in reply("help").lower()
