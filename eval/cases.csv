@@ -1,0 +1,16 @@
+question,expected,category
+hello,"Hello! Ask me where an office is, or when it opens.",normal
+Where is the Training Office?,"Training Office: room I.101, open Mon-Fri 07:30-16:30.",normal
+When does the Training Office open?,"Training Office: room I.101, open Mon-Fri 07:30-16:30.",normal
+Where is Student Affairs?,"Student Affairs: room I.102, open Mon-Fri 08:00-16:00.",normal
+Where is the Library?,"Library: room B.201, open Mon-Sat 07:00-20:00.",normal
+When does the Library open?,"Library: room B.201, open Mon-Sat 07:00-20:00.",normal
+Where is the IT Helpdesk?,"IT Helpdesk: room E.005, open Mon-Fri 08:00-17:00.",normal
+"",Please type a question.,edge
+"   ",Please type a question.,edge
+WHERE IS THE LIBRARY?,"Library: room B.201, open Mon-Sat 07:00-20:00.",edge
+"  Where is Student Affairs?  ","Student Affairs: room I.102, open Mon-Fri 08:00-16:00.",edge
+hello?!.,"Hello! Ask me where an office is, or when it opens.",edge
+What is the weather today?,"I don't know that yet. Try asking about an office, e.g. 'training office'.",out-of-scope
+What is 2 + 2?,"I don't know that yet. Try asking about an office, e.g. 'training office'.",out-of-scope
+Tell me a joke.,"I don't know that yet. Try asking about an office, e.g. 'training office'.",out-of-scope
