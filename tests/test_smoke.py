@@ -15,3 +15,12 @@ def test_unknown():
 
 def test_empty():
     assert reply("   ") == "Please type a question."
+
+def test_faculty_of_it_office():
+    result = reply("Where is the Faculty of IT Office?")
+    assert "I.53" in result
+
+
+def test_faculty_of_chemistry():
+    result = reply("Where is the Faculty of Chemistry?")
+    assert "I.59B" in result
