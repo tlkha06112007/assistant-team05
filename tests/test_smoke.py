@@ -16,6 +16,18 @@ def test_unknown():
 def test_empty():
     assert reply("   ") == "Please type a question."
 
+
 def test_help():
-    # Kiểm tra xem câu trả lời của lệnh help có chứa từ khóa tính năng (ví dụ: office) hay không
+    # Check that the help command lists bot capabilities.
     assert "office" in reply("help").lower()
+
+
+def test_faculty_of_it_office():
+    result = reply("Where is the Faculty of IT Office?")
+    assert "I.53" in result
+
+
+def test_faculty_of_chemistry():
+    result = reply("Where is the Faculty of Chemistry?")
+    assert "I.59B" in result
+
